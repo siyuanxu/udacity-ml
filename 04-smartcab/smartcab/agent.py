@@ -46,8 +46,8 @@ class LearningAgent(Agent):
             self.alpha = 0
         else:
             # self.epsilon -= 0.05
-            # self.epsilon = 0.99*self.epsilon
-            self.epsilon = math.cos(self.train_count*0.01)
+            self.epsilon = 0.99*self.epsilon
+            # self.epsilon = math.cos(self.train_count*0.01)
 
         self.train_count+=1
 
@@ -80,11 +80,6 @@ class LearningAgent(Agent):
         ## TO DO ##
         ###########
         # Calculate the maximum Q-value of all actions for a given state
-
-        # maxQ = -1000
-        # for action in self.Q[state]:
-        #     if maxQ<action:
-        #         maxQ = action
 
         maxQ = max(self.Q[state].values())
 
@@ -202,7 +197,7 @@ def run():
     # Flags:
     #   tolerance  - epsilon tolerance before beginning testing, default is 0.05 
     #   n_test     - discrete number of testing trials to perform, default is 0
-    sim.run(n_test=10)
+    sim.run(n_test=10,tolerance=0.01)
 
 
 if __name__ == '__main__':

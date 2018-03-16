@@ -109,17 +109,26 @@ $$
 
 在后处理部分，我将对我的整个项目完成过程进行梳理。数据集可视化、算法优劣性比较、参数调优过程等都将以图表格式呈现。最终完成全部项目报告并提交。
 
-
+**Reference**
 
 [^1]: https://en.wikipedia.org/wiki/Supervised_learning
 
 [^2]: Kotsiantis S B, Zaharakis I, Pintelas P. Supervised machine learning: A review of classification techniques[J]. Emerging artificial intelligence applications in computer engineering, 2007, 160: 3-24.
+
 [^3]: https://www.kaggle.com/c/rossmann-store-sales/data
+
 [^4]: http://blog.csdn.net/heyongluoyao8/article/details/49408319
+
 [^5]: https://www.kaggle.com/c/rossmann-store-sales#evaluation
+
 [^6]: Liaw A, Wiener M. Classification and regression by randomForest[J]. R news, 2002, 2(3): 18-22.
+
 [^7]: Belgiu M, Drăguţ L. Random forest in remote sensing: A review of applications and future directions[J]. ISPRS Journal of Photogrammetry and Remote Sensing, 2016, 114: 24-31.
+
 [^8]: Rodriguez-Galiano V, Sanchez-Castillo M, Chica-Olmo M, et al. Machine learning predictive models for mineral prospectivity: An evaluation of neural networks, random forest, regression trees and support vector machines[J]. Ore Geology Reviews, 2015, 71: 804-818.
+
 [^9]: Chen T, Guestrin C. Xgboost: A scalable tree boosting system[C]//Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining. ACM, 2016: 785-794.
+
 [^10]: Zheng H, Yuan J, Chen L. Short-term load forecasting using EMD-LSTM neural networks with a Xgboost algorithm for feature importance evaluation[J]. Energies, 2017, 10(8): 1168.
+
 [^11]: Mitchell R, Frank E. Accelerating the XGBoost algorithm using GPU computing[J]. PeerJ Computer Science, 2017, 3: e127.
